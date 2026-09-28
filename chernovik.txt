@@ -1,0 +1,89 @@
+    {
+    "name": "ilnur",
+    "email": "ilnurkerimov9@gmail.com",
+    "birth_year": 2009
+    },
+
+
+
+
+{
+    "user": 1,
+    "address": 1,
+    "items": [
+        {
+            "food": 1,
+            "quantity": 2
+        }
+    ]
+}
+
+
+
+
+{
+  "email": "ilnurkerimov9@gmail.com",
+  "phone": "+996999402300",
+  "date_of_birth": "2009.09.09",
+  "password": "12345678i",
+  "password2": "12345678i",
+  "first_name": "Ильнур",
+  "last_name": "Азимбеков"
+}
+
+
+
+
+
+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
+
+
+
+
+
+{
+  "email": "ilnurkerimov9@gmail.com",
+  "phone": "+996555123456",
+  "date_of_birth": "2000-01-01",
+  "password": "StrongPassword123",
+  "password2": "StrongPassword123",
+  "first_name": "Ильнур",
+  "last_name": "Керимов",
+  "otp": "123456"
+}
+
+{
+  "mail": "ilnurkerimov9@gmail.com"
+}
+
+
+
+
+
+
+
+
+
+нужно сделать авторизацию и вход через гугл на бекенд часть,
+ джанго, мне нужен гит,
+  нужно делать по этапно а 
+  не все сразу и у меня уже 
+  есть секрет айди клиента и айди клиента
+
+
+
+
+
+
+
+
+
+  http://127.0.0.1:8000/accounts/google/login/
+
+
+
+
+
+
+  python decouple
+  .env
