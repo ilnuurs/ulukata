@@ -114,11 +114,10 @@ class ResetPasswordView(APIView):
 class RegisterView(APIView):
     def post(self, request):
         email = request.data.get('email')
-        username = request.data.get('username')
         password = request.data.get('password')
         code = request.data.get('otp')
 
-        if not all([email, username, password, code]):
+        if not all([email, password, code]):
             return Response(
                 {'error': 'Заполните все поля'},
                 status=status.HTTP_400_BAD_REQUEST,
@@ -149,7 +148,7 @@ class RegisterView(APIView):
             )
 
         user = User.objects.create_user(
-            username=username, email=email, password=password
+            email=email, password=password
         )
 
         otp.delete()

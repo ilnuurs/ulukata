@@ -9,3 +9,5 @@ admin.site.register(Food)
 admin.site.register(User)
 admin.site.register(Address)
 admin.site.register(Order)
+
+

@@ -87,3 +87,6 @@ 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
 
   python decouple
   .env
+
+
+pip install django-phonenumber-field phonenumbers django-resized
